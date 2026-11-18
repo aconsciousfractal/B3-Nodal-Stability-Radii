@@ -1349,9 +1349,8 @@ $9/40>4/15625$ and $111/200>4/15625$. Since $\lambda t>0$,
 Dividing by $0<M<24$ gives \eqref{eq:objective}, because
 $333/24=111/8$. At $t=0$, substitution gives $R=S=U=1$,
 $P=\lambda=0$ and $M=9$, without division by $t$. This also
-proves the mass bound at the centre. Every inequality used the original
-parameter domain through \eqref{eq:RSbounds}; no fixed numerical geometry
-has been imported from the earlier calculation.
+proves the mass bound at the centre. The estimates use
+\eqref{eq:RSbounds}, which holds throughout the stated parameter domain.
 \end{proof}
 
 \begin{corollary}[Certified pointwise lower bounds]\label{cor:pointlower}
@@ -1538,8 +1537,9 @@ We have proved, including the equality in the target margin,
 \end{equation}
 Thus no atom construction is needed to cover the open second zone;
 the two endpoint centres use only the central cost lemma.
-The older strict margin $\sqrt{65}B(\eta)/4$ and the margin
-$2B(\eta)$ both imply the new sufficient condition.
+A strict lower bound of $\sqrt{65}B(\eta)/4$ or a lower bound
+of $2B(\eta)$ for $\min\{B(\theta_c),B(\omega)\}$ each implies the
+target-margin condition in \eqref{eq:Mcondition}.
 
 On $[\eta,\theta_c]$ strict unimodality and $B(\theta_c)>B(\eta)$
 give $B(\theta)>B(\eta)$ for $\eta<\theta\le\theta_c$.
@@ -2264,10 +2264,12 @@ are not asserted uniform under degeneration of the tube.
 The accompanying directory \path{companion/} is an autonomous finite-check
 package. Its \path{README.md} records the exact input parameters,
 dependencies, commands and output identities for the adapted-sector and
-narrow-sector checks. It includes a proof/source map, the selected
-immutable input records, the scripts they require and the two figure
-sources and outputs. These materials can be copied to a new directory
-and used without the laboratory application or its stored simulations.
+narrow-sector checks. It includes a proof/source map, the selected input
+records, the check scripts and the figure generator. The two generated
+PDFs are in \path{paper/figures/} in the
+\href{https://github.com/aconsciousfractal/B3-Nodal-Stability-Radii}{public repository}.
+The companion runs independently of the laboratory application and its
+stored simulations.
 
 The checks evaluate prescribed symbolic and rational identities; the
 normal and optimized Python modes are compared on the same fixed inputs.

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the manuscript when using its mathematical results."
 type: software
 title: "B3 Nodal Stability Radii - Reproducibility Package"
-version: "1.0.0"
+version: "1.0.1"
 authors:
   - family-names: Babanskyy
     given-names: Oleksiy

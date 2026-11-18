@@ -1,6 +1,6 @@
 # Sup-norm stability radii for a nodal face of the $B_3$ spherical discriminant
 
-**Oleksiy Babanskyy · 2026 · Repository package 1.0.0**
+**Oleksiy Babanskyy · 2026 · Repository package 1.0.1**
 
 [Manuscript PDF](paper/Nodal-Stability-Radii.pdf) · [LaTeX source](paper/main.tex) · [Reading room](https://www.oleksiybabanskyy.com/cymatics/paper) · [Cymatics Studio](https://www.oleksiybabanskyy.com/cymatics/)
 
@@ -47,6 +47,10 @@ python -B scripts/verify.py --replay
 qualified tool versions and the expected results.
 
 ## Cite and reuse
+
+Version 1.0.1 clarifies the scope of the estimates in §5.2 and the two
+implications in §6.1.3. Section 10.1 locates the companion files and links
+this repository.
 
 The manuscript records the use of AI assistance in preparing the paper and
 its companion. Citation metadata is in [CITATION.cff](CITATION.cff). The

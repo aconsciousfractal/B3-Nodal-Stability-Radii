@@ -63,6 +63,8 @@ Its ZIP SHA-256 is
 `b6724fa4719bb310d60f1b1d8d193f7d09c3b572440e945768f407ade85cab97`.
 All 16 archive members appear byte for byte under
 [`companion/`](companion/), including the companion's own
-[manifest](companion/SHA256SUMS). The companion guide also describes optional
-figure regeneration. The repository keeps the publication figures used for
-the TeX build under [`paper/figures/`](paper/figures/).
+[manifest](companion/SHA256SUMS). The companion includes the
+[figure generator](companion/illustrations/generate_figures.py), and the
+publication figures used for the TeX build are under
+[`paper/figures/`](paper/figures/). Section 10.1 of the 1.0.1 manuscript
+describes these locations and links to this repository.
