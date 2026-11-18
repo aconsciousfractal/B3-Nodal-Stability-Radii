@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "protocol_id": "nodal-stability-reader-companion-v1",
+  "distribution": "citations-only",
+  "records": [
+    {
+      "citation": "Erdelyi",
+      "url": "https://doi.org/10.1007/s00365-013-9208-0",
+      "locator": "Theorem 2.1",
+      "use": "Fibre inequality"
+    },
+    {
+      "citation": "Dressler",
+      "url": "https://doi.org/10.1137/24M1717853",
+      "locator": "Sections 4.2\u20134.3",
+      "use": "Extremal-polynomial context"
+    },
+    {
+      "citation": "DavydovSchaback",
+      "url": "https://doi.org/10.1007/s00211-018-0973-3",
+      "locator": "Theorem 9",
+      "use": "Fixed-node duality context"
+    }
+  ]
+}

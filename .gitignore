@@ -1,0 +1,6 @@
+/.venv/
+/paper/build/
+/companion/output/
+/companion/replay-*/
+/companion/illustrations/*.pdf
+__pycache__/

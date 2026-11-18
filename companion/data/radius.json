@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "protocol_id": "nodal-stability-reader-companion-v1",
+  "fixed_point": {
+    "full_dimension": 100,
+    "certificate_max_atoms": 100,
+    "odd_reduction_generic_point": false
+  },
+  "finite_witness_transfer": {
+    "j_lower_factor": "7/8",
+    "j_over_A_when_Beta_le_Bomega": "63/8",
+    "sufficient_side_ratio": "8/63"
+  }
+}

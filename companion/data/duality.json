@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "protocol_id": "nodal-stability-reader-companion-v1",
+  "results": [
+    {
+      "id": "F-S02-DUAL",
+      "odd_dimension": 45,
+      "positive_half_tube_atom_bound": 45,
+      "whole_tube_V9_paired_atom_bound": 90
+    },
+    {
+      "id": "F-S02-CHEB-OBSTRUCTION",
+      "asymptotic_fixed_omega_small_eta_claim": false
+    }
+  ],
+  "exact_derivations": {
+    "simple_gap_lower": "gap at i=3 >= 3*a^4/64"
+  }
+}

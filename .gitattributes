@@ -1,0 +1,4 @@
+# Preserve exact reader ZIP member bytes on every checkout.
+* text=auto eol=lf
+/companion/** -text -filter
+*.pdf binary -filter

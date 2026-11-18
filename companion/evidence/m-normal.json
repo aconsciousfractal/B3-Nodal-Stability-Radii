@@ -1,0 +1,623 @@
+{
+  "schema_version": "1.0",
+  "scope": "Example M exact scalar envelopes and formal moment identities; no grid, solver, continuum or novelty certification.",
+  "normalization": "Original real full100 and continuous whole closed-tube sup. Near-angle support and far-angle margin are proved in the article.",
+  "basis_coverage": {
+    "complex_monomial_identities": 55,
+    "real_components": 100
+  },
+  "counts": {
+    "exact": 97,
+    "negative": 4
+  },
+  "checks": [
+    {
+      "id": "M-import-K08",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Exact T9'=9U8 polynomial identity."
+    },
+    {
+      "id": "M-import-K09",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Exact nodal polynomial; its nonvanishing on the continuum uses the U bound."
+    },
+    {
+      "id": "M-import-K10",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "U lower scalar envelope on t^2<=1/100."
+    },
+    {
+      "id": "M-import-K11",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Upper coefficient envelope implies U<1 outside zero."
+    },
+    {
+      "id": "M-import-K12",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "U'/t<0 via the written polynomial envelope."
+    },
+    {
+      "id": "M-import-K13",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Tangent correction magnitude bound; a^2<1/65 is strict."
+    },
+    {
+      "id": "M-import-K14",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Positive lambda/t lower envelope, conditional on K10,K12."
+    },
+    {
+      "id": "M-import-K15",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Positive T9/t envelope outside zero."
+    },
+    {
+      "id": "M-import-K16",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Strict T9/t<9 envelope."
+    },
+    {
+      "id": "M-import-K17",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "-tU'<81t^2 envelope."
+    },
+    {
+      "id": "M-import-K18",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "lambda*t<165t^2 envelope, using U>1/2 and negative tangent correction."
+    },
+    {
+      "id": "M-import-K19",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "M<24 envelope, with central case M=9 separate."
+    },
+    {
+      "id": "M-import-K20",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "S-U>37t^2 coefficient envelope."
+    },
+    {
+      "id": "M-import-K21",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "9R-T9/t>114t^2 envelope."
+    },
+    {
+      "id": "M-import-K22",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Conservative strict objective/mass gap; continuum proof is in the article."
+    },
+    {
+      "id": "M-import-K23",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Critical graph sign coefficient for the critical field."
+    },
+    {
+      "id": "M-import-K24",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Side threshold j>A; graph/event lemma and uniqueness remain written proofs."
+    },
+    {
+      "id": "M-import-KM-0-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-2",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^2(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-3",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^3(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-4",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^4(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-5",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^5(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-6",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^6(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-7",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^7(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-8",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^8(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-0-9",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^9(u+iv)^0: 1 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-2",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^2(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-3",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^3(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-4",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^4(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-5",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^5(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-6",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^6(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-7",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^7(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-1-8",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^8(u+iv)^1: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-2-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^2: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-2-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^2: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-2-2",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^2(u+iv)^2: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-2-3",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^3(u+iv)^2: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-2-4",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^4(u+iv)^2: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-2-5",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^5(u+iv)^2: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-2-6",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^6(u+iv)^2: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-2-7",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^7(u+iv)^2: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-3-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^3: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-3-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^3: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-3-2",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^2(u+iv)^3: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-3-3",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^3(u+iv)^3: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-3-4",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^4(u+iv)^3: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-3-5",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^5(u+iv)^3: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-3-6",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^6(u+iv)^3: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-4-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^4: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-4-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^4: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-4-2",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^2(u+iv)^4: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-4-3",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^3(u+iv)^4: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-4-4",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^4(u+iv)^4: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-4-5",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^5(u+iv)^4: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-5-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^5: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-5-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^5: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-5-2",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^2(u+iv)^5: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-5-3",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^3(u+iv)^5: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-5-4",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^4(u+iv)^5: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-6-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^6: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-6-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^6: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-6-2",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^2(u+iv)^6: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-6-3",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^3(u+iv)^6: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-7-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^7: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-7-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^7: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-7-2",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^2(u+iv)^7: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-8-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^8: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-8-1",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^1(u+iv)^8: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KM-9-0",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "z^0(u+iv)^9: 2 real component(s); formal degree10/b, original value/first derivative and interpolation annihilator. Nonzero physical a^k and rotated unit phase multiply both sides equally."
+    },
+    {
+      "id": "M-import-KN01",
+      "kind": "negative",
+      "status": "PASS",
+      "scope": "Omitting b'/b leaves -N(t)b1; nonzero for original t!=0. At t=0 the correction vanishes, handled separately."
+    },
+    {
+      "id": "M-import-KN02",
+      "kind": "negative",
+      "status": "PASS",
+      "scope": "Replacing the double zero of q with a simple zero produces formal first-jet defect 2q2/b0. No alternative target family is executed."
+    },
+    {
+      "id": "M01",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Exact normal scale for taneta=1/100; a=25/sqrt100020626."
+    },
+    {
+      "id": "M02",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Normal scale and inherited original scalar domain; no float."
+    },
+    {
+      "id": "M03",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Rational lower envelope for delta; atan integral is proved in the article."
+    },
+    {
+      "id": "M04",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "eta<1/100 makes delta>6eta/25 strict."
+    },
+    {
+      "id": "M05",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "omega upper envelope; angular ordering and pi comparison are analytic."
+    },
+    {
+      "id": "M06",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "L>4delta and adapted side alpha>=27delta/10."
+    },
+    {
+      "id": "M07",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "theta_c/eta lower envelope; strict by M03-M04 and the proof."
+    },
+    {
+      "id": "M08",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "sin(delta)/delta lower coefficient; signed Taylor proof is separate."
+    },
+    {
+      "id": "M09",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "W/delta lower beats sin(L/4)/delta upper: candidate beyond L frontier."
+    },
+    {
+      "id": "M10",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Cosine envelope used for the entire adapted support, not sampled angles."
+    },
+    {
+      "id": "M11",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Strict adapted support reach ratio; physical sine hypothesis proved in the article."
+    },
+    {
+      "id": "M12",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Uniform discriminant coefficient on near-terminal patch."
+    },
+    {
+      "id": "M13",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Exact tangent affine defect for free theta-dependent h."
+    },
+    {
+      "id": "M14",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Exact discriminant ratio with h=4sin²(alpha/2); support is analytic."
+    },
+    {
+      "id": "M15",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Uniform endpoint reach threshold; maximum over s proved in the article."
+    },
+    {
+      "id": "M16",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Target sine/cosine coefficient bounds on theta<=omega<1/40."
+    },
+    {
+      "id": "M17",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Strict Bernoulli scalar factor in angular target ratio."
+    },
+    {
+      "id": "M18",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Product envelope for target; no norm or coefficient restriction."
+    },
+    {
+      "id": "M19",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Angular target margin on the entire far patch follows from written bounds."
+    },
+    {
+      "id": "M20",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "H barrier derivative identity and envelope; continuum monotonicity in the article."
+    },
+    {
+      "id": "M21",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Global coarse H lower including value-only normal sides."
+    },
+    {
+      "id": "M22",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Original H outer-band exclusion, no new fiber model."
+    },
+    {
+      "id": "M23",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "B margin compensates global coarse H factor: 9/sqrt65>1."
+    },
+    {
+      "id": "M24",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Exact endpoint target coefficient; rho=aB_eta/9 only after written coverage."
+    },
+    {
+      "id": "M25",
+      "kind": "exact",
+      "status": "PASS",
+      "scope": "Side margin and gamma in(1,7) true-failure family: IVT/graph proof separate."
+    },
+    {
+      "id": "MN01",
+      "kind": "negative",
+      "status": "PASS",
+      "scope": "Uniform prescribed L support has negative extreme discriminant in candidate; no radius counterexample."
+    },
+    {
+      "id": "MN02",
+      "kind": "negative",
+      "status": "PASS",
+      "scope": "Coarse H alone at theta=eta cannot certify target A_eta; target margin is required where this patch is used."
+    }
+  ],
+  "status": "PASS",
+  "scientific_acceptance": false
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "protocol_id": "nodal-stability-reader-companion-v1",
+  "scope": "Finite exact identities and arithmetic, mathematical negative controls, bibliography and input identity",
+  "total": 30,
+  "passed": 30,
+  "negative_controls": 5,
+  "counts_by_kind": {
+    "contract": 1,
+    "exact": 23,
+    "negative": 5,
+    "source": 1
+  },
+  "checks": [
+    {
+      "id": "F-S01-ODD-DIMENSION",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Exact odd parameter count; projection/attainment require the written proof"
+    },
+    {
+      "id": "F-S01-SATURATION-IDENTITY",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Positive scaling gives saturated derivative; positivity d>B and strict norm reduction are proved separately"
+    },
+    {
+      "id": "F-S01-CHEB-BASIS",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Consumed ascending coefficients, degree and central derivative"
+    },
+    {
+      "id": "F-S01-CHEB-DIFFERENTIAL",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Polynomial identity supporting the continuous normal majorant"
+    },
+    {
+      "id": "F-S01-H-DEGREE-ODD",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Degree and z parity for ambient product; fixed angular coefficients do not raise degree"
+    },
+    {
+      "id": "F-S01-H-CENTER-JET",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Terminal derivative from even u(z) with u(0)=1; no tangential substitution into the norm"
+    },
+    {
+      "id": "F-S01-H-FACTOR-SCALE",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Exact U8 derivative factor and H0 majorant constants; root locations and continuous inequalities remain analytic"
+    },
+    {
+      "id": "F-S01-CONTINUOUS-MAJORANT-ARITHMETIC",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Exact square verifies z\u00b2(a\u00b2-z\u00b2)\u2264a\u2074/4; no sampled sup"
+    },
+    {
+      "id": "F-S01-EXPLICIT-EPSILON-GAP",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "For g,C>0 the epsilon choice leaves a strict positive gap"
+    },
+    {
+      "id": "F-S01-RATIONAL-FINITE-DOMAIN",
+      "statement_id": "F-S01",
+      "kind": "exact",
+      "passed": true,
+      "details": "Exact rational tangent example and integer margin; atan Lipschitz and radical bounds proved in the article"
+    },
+    {
+      "id": "F-S01-NORMAL-FIBER-NOT-POLYNOMIAL",
+      "statement_id": "F-S01",
+      "kind": "negative",
+      "passed": true,
+      "details": "Global field uz has a nonzero z11 fiber coefficient, so ordinary degree9 interpolation does not represent the full class"
+    },
+    {
+      "id": "F-S02-GLOBAL-DUAL-ATOM-COUNTS",
+      "statement_id": "F-S02",
+      "kind": "exact",
+      "passed": true,
+      "details": "Exposed face argument is written; finite count here does not determine actual optimizing atoms"
+    },
+    {
+      "id": "F-S02-COMPLETE-ODD-MOMENTS",
+      "statement_id": "F-S02",
+      "kind": "exact",
+      "passed": true,
+      "details": "Complete global odd Fourier-z basis, exact degree constraint"
+    },
+    {
+      "id": "F-S02-CONTACT-INTERPOLATION",
+      "statement_id": "F-S02",
+      "kind": "exact",
+      "passed": true,
+      "details": "Five exact rational nodes verify interpolation algebra; actual Cheby nodes and general identity are in the proof"
+    },
+    {
+      "id": "F-S02-M1-NULL-DIRECTION",
+      "statement_id": "F-S02",
+      "kind": "exact",
+      "passed": true,
+      "details": "Exact rational support for unique null direction x_i; not a global contact certificate"
+    },
+    {
+      "id": "F-S02-RADICAL-GAP-IDENTITY",
+      "statement_id": "F-S02",
+      "kind": "exact",
+      "passed": true,
+      "details": "Symbolic gap identity with a\u00b2=1-b\u00b2, denominators nonzero in declared domain"
+    },
+    {
+      "id": "F-S02-SIMPLE-DOMAIN-GAP",
+      "statement_id": "F-S02",
+      "kind": "exact",
+      "passed": true,
+      "details": "i3 node and exact numerator; denominator\u22644 proved from b\u22641 and x<1"
+    },
+    {
+      "id": "F-S02-M2-NONCONCENTRATION",
+      "statement_id": "F-S02",
+      "kind": "negative",
+      "passed": true,
+      "details": "Cosine m2 relation alone permits C_i<1; this toy is not a full45-moment feasible measure"
+    },
+    {
+      "id": "F-S03-FULL-POINT-JET-SURJECTIVITY",
+      "statement_id": "F-S03",
+      "kind": "exact",
+      "passed": true,
+      "details": "Jet basis1,z-zp has determinant cos(rp)>0; no45dim generic restriction"
+    },
+    {
+      "id": "F-S03-GENERIC-DUAL-SIGN",
+      "statement_id": "F-S03",
+      "kind": "exact",
+      "passed": true,
+      "details": "For mu,s\u22650 the generic dual objective is a lower bound, correct sign"
+    },
+    {
+      "id": "F-S03-GLOBAL-JET-CORRECTION",
+      "statement_id": "F-S03",
+      "kind": "exact",
+      "passed": true,
+      "details": "Affine correction preserves pointvalue and removes positive derivative; the bound and negative branch are analytic"
+    },
+    {
+      "id": "F-S03-GENERIC-NOT-ODD",
+      "statement_id": "F-S03",
+      "kind": "negative",
+      "passed": true,
+      "details": "Feasible e=-2f+F(p) loses prescribed value under odd projection when F(p)\u22600"
+    },
+    {
+      "id": "F-S04-UPPER-ALGEBRA",
+      "statement_id": "F-S04",
+      "kind": "exact",
+      "passed": true,
+      "details": "Equivalent positive certified upper forms; g>0 makes upper strictly below A"
+    },
+    {
+      "id": "F-S04-GAMMA-COST",
+      "statement_id": "F-S04",
+      "kind": "exact",
+      "passed": true,
+      "details": "When0<U<A this explicitgamma>1 has gammaU<A"
+    },
+    {
+      "id": "F-S04-SIDE-GAP",
+      "statement_id": "F-S04",
+      "kind": "exact",
+      "passed": true,
+      "details": "Exact sufficient side gap; actualfailures from gamma use this extra condition"
+    },
+    {
+      "id": "F-S04-THREE-ZERO-JET",
+      "statement_id": "F-S04",
+      "kind": "exact",
+      "passed": true,
+      "details": "Negative terminal derivative for U<A; threezero IVT and sides are written continuous proof"
+    },
+    {
+      "id": "F-S04-JET-ATTAINMENT-NOT-FAILURE",
+      "statement_id": "F-S04",
+      "kind": "negative",
+      "passed": true,
+      "details": "Singular cubic level still has one distinct normal zero; jet attainment alone is not graphfailure"
+    },
+    {
+      "id": "F-S05-SOURCE-BOUNDARY",
+      "statement_id": "F-S05",
+      "kind": "source",
+      "passed": true,
+      "details": "Three public bibliography records cross-checked against the supplied citation entries and their declared uses; references only"
+    },
+    {
+      "id": "F-S05-FIXED-OMEGA-REGIMES",
+      "statement_id": "F-S05",
+      "kind": "negative",
+      "passed": true,
+      "details": "Narrow edge eta\u2191omega differs from small eta at fixedomega; no small-eta correction concluded"
+    },
+    {
+      "id": "F-CONTRACT",
+      "statement_id": null,
+      "kind": "contract",
+      "passed": true,
+      "details": "All four input files declare the companion schema and protocol identity"
+    }
+  ]
+}

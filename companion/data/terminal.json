@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "protocol_id": "nodal-stability-reader-companion-v1",
+  "chebyshev": {
+    "degree": 9,
+    "coefficients_ascending": [
+      0,
+      9,
+      0,
+      -120,
+      0,
+      432,
+      0,
+      -576,
+      0,
+      256
+    ]
+  },
+  "global_witness": {
+    "ambient_degree_H": 6,
+    "ambient_degree_P_plus_epsilon_H": 9,
+    "epsilon": "g/C^2",
+    "g": "a*d/9-q"
+  },
+  "normalization": {
+    "odd_global_dimension": 45
+  },
+  "exact_tangent_example": {
+    "tan_eta": "499999999/1000000000",
+    "tan_omega": "1/2",
+    "L_upper": "1/1000000000",
+    "product_si": "1/16",
+    "sufficient_condition_integer_left": "202661983231672320",
+    "sufficient_condition_integer_right": "1000000000000000000"
+  }
+}
